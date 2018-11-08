@@ -1,0 +1,81 @@
+#wrapper {
+    max-width: 2000px;
+    max-height: 4050px;
+    outline: 1px solid #cccccc;
+    padding: -1px;
+    margin: auto;
+}
+#header {
+    height: 70px;
+    background-color: #194277;
+    font-family: "Lato", sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+#header_big {
+    height: 800px;
+    background-color: #4872FA;
+    text-align: center;
+    font-family: "Lato - Black" sans-serif;
+    text-transform: uppercase;
+    color: #ffffff; 
+    margin-top: -25px;
+    text-align: center;
+    font-family: "Lato - Black" sans-serif;
+    text-transform: uppercase;
+}
+#about_me {
+    height: 405px;
+    background-color:#ffffff;
+    text-align: center;
+    color: #3677fd;
+
+  display: inline-block;
+  vertical-align: middle;
+}
+#expert_in {
+    background-color: #f1f8ff;
+    height: 1140px;
+    margin-top: -20px;
+}
+
+.expert_in_block {
+    display: inline-block;
+	float: left;
+	width: 30%;
+	text-align: center;
+	margin: 0px 15px;
+    /*
+    background-color: antiquewhite;
+    width: 360px;
+    height: 400px;
+    float: inherit;
+    font-size: 16px;
+    float: left;*/
+}
+p {
+    color: #5a5a5a
+}
+h2 {
+    text-align: center;
+color: #3677fd;
+font-family: Lato;
+font-size: 50px;
+}
+.latest_work_box {
+    width: 359px;
+    height: 269px;
+    border: 1px solid #f4f4f4;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+}
+.box_footer1 {
+    height: 363px;
+    background-color: #f1f8ff;
+    text-align: center;
+}
+.box_footer2 {
+    height: 247px;
+    background-color: #4872FA;
+    color: #ffffff;
+}
