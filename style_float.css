@@ -1,42 +1,99 @@
 #wrapper {
-    max-width: 2000px;
+    max-width: 1140px;
     max-height: 4050px;
     outline: 1px solid #cccccc;
     padding: -1px;
     margin: auto;
 }
+body {
+    font-weight: 2000px;
+}
+/*first header*/
 #header {
     height: 70px;
     background-color: #194277;
     font-family: "Lato", sans-serif;
+    font-size: 10px;
     color: #ffffff;
     text-align: center;
+    padding-top: 35px;
 }
+.accept {
+    background-color: #ffffff;
+    float: none;
+    width: 112px;
+    height: 30px;
+    border:  0px solid #194277;
+    border-radius: 28px;
+    color: #194277; 
+    margin-left: 55px;
+}
+/*Header_big*/
 #header_big {
     height: 800px;
     background-color: #4872FA;
     text-align: center;
     font-family: "Lato - Black" sans-serif;
     text-transform: uppercase;
-    color: #ffffff; 
-    margin-top: -25px;
+    color: #ffffff;     
+}
+.circle {
+    width: 150px;
+    height: 150px;
+    border: 3px solid rgb(83,151,254);
+    border-radius: 50%;
     text-align: center;
-    font-family: "Lato - Black" sans-serif;
-    text-transform: uppercase;
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto; /*не нашел как опустить круг ниже на 110px*/
+}
+h1 {
+    max-width: 700px;
+    font-size: 38px;
+    text-align: center;
+    padding-top: 80px;
+    margin-left: auto;
+    margin-right: auto; /*метод центрирования верный?*/ 
+}
+.header_big_lorem {
+    max-width: 700px;
+    font-size: 12px;
+    font-weight: 100;
+    padding-left: 250px;
+    padding-right: 250px;
+    color: #ffffff;
+}
+.hire_mi {
+    background-color: #ffffff;
+    float: none;
+    width: 200px;
+    height: 55px;
+    border:  0px solid #194277;
+    border-radius: 28px;
+    color: #4872FA; 
+    margin-top: 80px;
+}/*blue end*/
+
+h2 {
+    font-weight: 100;
+    font-size: 34px;
+    text-align: center;
 }
 #about_me {
-    height: 405px;
+    max-height: 405px;
     background-color:#ffffff;
     text-align: center;
     color: #3677fd;
-
-  display: inline-block;
-  vertical-align: middle;
+    margin-top: 110px;
+}
+.about_me{
+    max-width: 1140px;
+    margin-top: 30px; 
+    /*padding текста относительно ширины всей страницы?*/
 }
 #expert_in {
     background-color: #f1f8ff;
     height: 1140px;
-    margin-top: -20px;
 }
 
 .expert_in_block {
