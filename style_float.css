@@ -37,7 +37,7 @@ body {
     text-transform: uppercase;
     color: #ffffff;     
 }
-.circle {
+.circle { /*вместо круга с фотошопа+пропустил менюшку навигации*/
     width: 150px;
     height: 150px;
     border: 3px solid rgb(83,151,254);
@@ -78,6 +78,7 @@ h2 {
     font-weight: 100;
     font-size: 34px;
     text-align: center;
+    color: #4872FA;
 }
 #about_me {
     max-height: 405px;
@@ -89,50 +90,74 @@ h2 {
 .about_me{
     max-width: 1140px;
     margin-top: 30px; 
-    /*padding текста относительно ширины всей страницы?*/
+    color: black;
+    /*padding текста относительно ширины всей страницы отличается от макета?*/
 }
 #expert_in {
     background-color: #f1f8ff;
-    height: 1140px;
+    max-width: 1170px;
+    max-height: 1140px;
+    margin: auto;
+    display: inline-block;
+    text-align: center;
 }
 
 .expert_in_block {
-    display: inline-block;
-	float: left;
-	width: 30%;
-	text-align: center;
-	margin: 0px 15px;
-    /*
-    background-color: antiquewhite;
+    background-color: inherit;    
+    float: left;
     width: 360px;
-    height: 400px;
-    float: inherit;
-    font-size: 16px;
-    float: left;*/
+    height: 340px;
+    margin: 0 10px 10px 10px;
+    display: block; /* не понимаю еще до конца особенности поведения блочно-строчных элементов*/
 }
-p {
-    color: #5a5a5a
+
+h4 {
+    font-size: 20px;
+    color: #3677fd;
+    text-transform: uppercase;
 }
-h2 {
+/* на лекции про это свойсво немного проясните где его стоит применять
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+} */
+
+.latest_work {
+    width: 100%;
+    height: 1120px;
     text-align: center;
-color: #3677fd;
-font-family: Lato;
-font-size: 50px;
+    display: inline-block;
 }
+
 .latest_work_box {
     width: 359px;
     height: 269px;
-    border: 1px solid #f4f4f4;
+    border: 10px solid #ffffff;
     border-radius: 10px;
     background-color: #f4f4f4;
+    display: block;
+    float: left;
+    margin-bottom: 31px;
 }
 .box_footer1 {
-    height: 363px;
+    height: 360px;
     background-color: #f1f8ff;
     text-align: center;
+    padding-top: 100px;    
+}
+.client_logo {
+    padding-top: 75px;
 }
 .box_footer2 {
     height: 247px;
     background-color: #4872FA;
     color: #ffffff;
+    font-size: 25px;
+    text-align: center;
+    margin: auto;
+}
+.ready {
+    font-weight: 700;    
+    padding-right: 65px;
 }
